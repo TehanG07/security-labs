@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Toolkit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            background: #1e1e1e;
+            border: 1px solid #333;
+            color: white;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            border-color: #0d6efd;
+        }
+        .card-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+        .card a {
+            text-decoration: none;
+        }
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center">🛡️ Cyber Security Toolkit</h1>
+        <p class="text-center">Advanced security tools for ethical hacking and vulnerability testing.</p>
+        
+        <div class="row">
+            <!-- Meta-Data Viewer -->
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <a href="Meta-data-viewer.php">
+                        <h3 class="card-title"><i class="fas fa-eye"></i> Meta-Data Viewer</h3>
+                        <p>Analyze metadata of files & images.</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Network Scanner -->
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <a href="Network.php">
+                        <h3 class="card-title"><i class="fas fa-network-wired"></i> Network Scanner</h3>
+                        <p>Scan and monitor network traffic.</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Remote Code Execution (RCE) -->
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <a href="RCE.php">
+                        <h3 class="card-title"><i class="fas fa-bug"></i> Remote Code Execution</h3>
+                        <p>Execute commands remotely on vulnerable servers.</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Cryptography -->
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <a href="cryptography.php">
+                        <h3 class="card-title"><i class="fas fa-lock"></i> Cryptography</h3>
+                        <p>Encrypt & decrypt sensitive data.</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Local File Inclusion (LFI) -->
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <a href="lfi.php">
+                        <h3 class="card-title"><i class="fas fa-folder-open"></i> LFI Scanner</h3>
+                        <p>Check for Local File Inclusion vulnerabilities.</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Steganography -->
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <a href="steganography.php">
+                        <h3 class="card-title"><i class="fas fa-image"></i> Steganography</h3>
+                        <p>Hide & extract data from images.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Cyber Security Toolkit | Made by <b>Ethical Hackers</b> 🚀</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
